@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar App</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <header>
+        <h1>Calendar App</h1>
+        <h2>Plan out your day and take some notes!</h2>
+    </header>
+    <div class="container">
+        <div class="todo-list">
+            <div class="current-day">
+                <h1 class="date">20</h1>
+                <div class="weekday">Sunday</div>
+            </div>
+            <div class="events">
+                <div>Events Today:</div>
+                <ul class="events-list">
+                    <span>No more events today</span>
+                </ul>
+            </div>
+            <div class="add-event">
+                <input type="text" class="add-event-field" placeholder="Add an event">
+                <i class="fa fa-plus-circle add-event-button"></i>
+            </div>
+        </div>
+        <div class="calendar">
+            <div class="year-navigator">
+                <i class="fa fa-caret-left previous"></i>
+                <span class="year">2020</span>
+                <i class="fa fa-caret-right next"></i>
+            </div>
+            <div class="month-list">
+                <ul id="month">
+                    <li>Jan</li>  
+                </ul>
+            </div>
+            <div class="weekday-list">
+                <ul id="weekday">
+                    <li>Sun</li>
+                </ul>
+            </div>
+            <div class="day-list">
+                <ul id="day">
+                    <li>1</li>
+                    <li>2</li>
+                    <li>3</li>
+                    <li>4</li>
+                    <li>5</li>
+                    <li>6</li>
+                    <li>7</li>
+                    <li>8</li>
+                    <li>9</li>
+                    <li>10</li>
+                    <li>11</li>
+                    <li>12</li>
+                    <li>13</li>
+                    <li>14</li>
+                    <li>15</li>
+                    <li>16</li>
+                    <li>17</li>
+                    <li>18</li>
+                    <li>19</li>
+                    <li>20</li>
+                    <li>21</li>
+                    <li>22</li>
+                    <li>23</li>
+                    <li>24</li>
+                    <li>25</li>
+                    <li>26</li>
+                    <li>27</li>
+                    <li>28</li>
+                    <li>20</li>
+                    <li>30</li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="sticky-notes">
+            <i class="fa fa-plus-circle add-note-button"></i>
+            <input type="text" class="note" placeholder="Add a note">
+        </div>
+    </div>
+    
+    <script src="script.js" ></script>
+</body>
+</html>
